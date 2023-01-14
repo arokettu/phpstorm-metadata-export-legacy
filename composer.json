@@ -25,6 +25,6 @@
         "sort-packages": true
     },
     "require": {
-        "arokettu/phpstorm-metadata-export": "^1.8"
+        "arokettu/phpstorm-metadata-export": "^2.1"
     }
 }
