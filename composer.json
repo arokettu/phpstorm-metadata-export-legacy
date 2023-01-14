@@ -3,7 +3,7 @@
     "description": "Export PhpStorm Advanced Metadata from DI containers",
     "keywords": ["dependency injection", "phpstorm", "pimple", "slim", "silex", "code completion"],
     "homepage": "https://sandfox.dev/php/metadata-exporter-phpstorm.html",
-    "type": "library",
+    "type": "metapackage",
     "license": "MIT",
     "authors": [
         {
@@ -24,29 +24,7 @@
         },
         "sort-packages": true
     },
-    "autoload": {
-        "psr-4": {
-            "SandFox\\PhpStorm\\Metadata\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "SandFox\\PhpStorm\\Metadata\\Tests\\": "tests"
-        }
-    },
     "require": {
-        "php": "^7.1 | ^8.0",
-        "psr/http-server-middleware": "^1.0"
-    },
-    "require-dev": {
-        "laminas/laminas-servicemanager": "^3.0",
-        "php-di/php-di": "^6.0 | ^7.0",
-        "phpunit/phpunit": ">= 7 < 10",
-        "pimple/pimple": "^3.0",
-        "psy/psysh": "*",
-        "sandfox.dev/code-standard": "^10@dev",
-        "slim/slim": "^3.0",
-        "squizlabs/php_codesniffer": "*",
-        "symfony/polyfill-php80": "^1.23"
+        "arokettu/phpstorm-metadata-export": "^1.8"
     }
 }
